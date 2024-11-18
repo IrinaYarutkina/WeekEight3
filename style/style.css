@@ -1,0 +1,113 @@
+.header{
+    width: 100vw;
+    height: 10vh;
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.header__logo{
+    margin-left: 76px;
+}
+.header__button{
+    margin-right: 74px;
+}
+.section{
+    width: 100vw;
+    height: 75vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2.4fr 1fr 2fr;
+}
+.section__title{
+    text-transform: uppercase;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-left: 86px;
+    font-family: IntroRegular;
+    font-weight: 400; 
+    font-size: 60px;
+    line-height: 120%;
+    color: #000;
+}
+
+.section__text{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-left: 86px;
+    font-family: Roboto Slab;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000;
+} 
+.section__button{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin-left: 86px;
+}
+
+.section__img{
+    grid-column: 2/3;
+    grid-row: 1/4;
+}
+.footer{
+    width: 100vw;
+    height: 10vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.footer__text{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 86px;
+    flex-flow: row wrap;
+}
+
+.footer__text__1{
+    color: rgb(82, 34, 208);
+    font-family: Roboto Slab;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 160%;
+}
+.footer__text__2{
+    color: rgb(82, 34, 208);
+    font-family: Roboto Slab;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 160%;
+}
+.footer__text__3{
+    color: rgb(82, 34, 208);
+    font-family: Roboto Slab;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 160%;
+}
+.footer__text__4{
+    font-family: Roboto Slab;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    color: #5222d0;
+}
+li{
+    list-style-type: none; 
+}
+a { 
+    text-decoration: none; 
+} 
+@font-face { 
+    font-family: "IntroRegular";
+    src: url("fonts/IntroRegular/IntroRegular.eot");
+    src: url("fonts/IntroRegular/IntroRegular.woff") format("woff"),
+    url("fonts/IntroRegular/IntroRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
